@@ -11,3 +11,8 @@ func English() string {
 func Italian() string {
 	return "Ciao " + face
 }
+
+// Deutsche retorna saludo en Aleman
+func Deutsche() string {
+	return "Hallo " + face
+}

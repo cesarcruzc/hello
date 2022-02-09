@@ -2,11 +2,13 @@ package main
 
 import (
 	"fmt"
-	"go-desde-cero-paquetes/greet"
+
+	"github.com/cesarcruzc/hello/greet"
+	"rsc.io/quote"
 )
 
 func main() {
-	fmt.Println("Hello")
-
-	greet.English()
+	// fmt.Println("Hello")
+	fmt.Println(greet.Deutsche())
+	fmt.Println(quote.Hello())
 }
